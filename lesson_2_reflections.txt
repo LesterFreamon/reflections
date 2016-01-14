@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+It creates an invsisble .git directory that will store the history of the files.  It creates a master branch where the files are located.

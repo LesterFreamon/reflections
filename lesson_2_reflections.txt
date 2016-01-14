@@ -5,3 +5,24 @@ It creates an invsisble .git directory that will store the history of the files.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area keeps the info of files that are intended to be committed, but alows to still make changes before the commit takes place.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use git diff --taged in order to see the different bewteen the staged area and the place of the current branch
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If a new project is created which we don't know if will work out, or exatly when it will be fininsed (in time for the nexxt version or not)
+I more than one person is about to make changes
+
+How do the diagrams help you visualize the branch structure?
+
+It shows the connections, timelines and parnets of each branch
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+It takes the combined changes of both branches and compares to the point in the master before the branches were created.  I then identifies what lines were added and deleted compared to the original and concludes what to keep and what to delete for the merged branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic saves time and manual is more careful.

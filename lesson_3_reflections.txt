@@ -5,3 +5,21 @@ Why might you want to always pull changes manually rather than having Git automa
 
 because you may make changes that do not coincide with the repsoitory on the remote and vice versa
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are used to clone a project from gihub in o github.  Clones are used to sopy a project, with al lof the editing history into a local computer.  branches are for making changes in a local computer that reflect a certain concept that is currently not ready for mering with the main branch
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+So you can take the last stat of the branch from the web and merge it before pushing your changes
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Probably I would be using dropbox.  It would be easier to save the files and sync them, but it woudl be much harder to work on the same file simultaneously and take care of conflicts. 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+In terms of pros and cons, working on the master is less sloppy, while working on a separate branch is safer and allows more flexability when working on it.
+
+I would always want to make changes on a seaparate branch, first.  It makes the procedure of merging to the master more complicated, but it allows to make sure that I have the complete freedom to change the branch on the one hand, knowing that eventually, when it is merged the master, I can assure no bugs are present (as much as such a thing can be assured)
+
